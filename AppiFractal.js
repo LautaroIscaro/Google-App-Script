@@ -3,12 +3,12 @@ var PASSWORD="YOUR PASSWORD";
 
 function Import() {
   
-  var url22 ="https://app.fracttal.com/api/work_orders/";
+  var url ="https://app.fracttal.com/api/work_orders/";
   
 
   var headers = { "Authorization" : "Basic " + Utilities.base64Encode(USERNAME + ':' + PASSWORD) };
   var params = {"method":"GET","headers":headers};
-  var res = UrlFetchApp.fetch(url22, params);
+  var res = UrlFetchApp.fetch(url, params);
   var content=res.getContentText("UTF-8");
   
 
