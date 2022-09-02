@@ -1,3 +1,6 @@
+var USERNAME="YOUR USERNAME";
+var PASSWORD="YOUR PASSWORD";
+
 function Import() {
   
   var url22 ="https://app.fracttal.com/api/work_orders/";
