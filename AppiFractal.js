@@ -17,7 +17,7 @@ function Import() {
   
 
   var ss = SpreadsheetApp.getActiveSpreadsheet();
-  var sheet = ss.getSheetByName(NAME YOUR SHEEP") 
+  var sheet = ss.getSheetByName("NAME YOUR SHEEP") 
   
   var array = [];
   for (var key in data) {    
